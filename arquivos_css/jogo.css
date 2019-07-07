@@ -1,0 +1,107 @@
+/*ARQUIVO CSS QUE CONTÉM ELEMENTOS DO JOGO*/
+
+div.tabela{/*TABELA COMPORTA OS BLOCOS DO TABULEIRO*/
+    top: 20px;
+    left: 30px;
+    bottom: 20px;
+    alignment: center;
+    float: left;
+    height: auto;
+    width: auto;
+    max-width:1400px;
+    max-height: 100%;
+    min-height: 750px;
+    position: relative;
+}
+
+/*DADOS DA PARTIDA*/
+div.partida{
+    top: 50px;
+    width: 10%;
+    height: 100%;
+    float:top;
+    position: relative;
+}
+
+/*CARTAS DO JOGO E TRANSIÇÕES-----------------------------------*/
+div.carta{
+    /*background: #8f8f8f;*/
+    width: 200px;
+    height: 220px;
+    float:left;
+    border: 3px solid black;
+    border-radius: 10%;
+    margin: 10px;
+    background: url("../img/questionCard.jpg") no-repeat;
+    background-size: 200px 220px;
+    position: relative;
+}
+
+/***************PAINEL**********************/
+div.painel{
+    background: #0e212a;
+    border-radius: 5%;
+    top: -10px;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 50px;
+    min-height: 50px;
+    position: relative;
+    box-shadow: 0 3px 0 #aaa;
+}
+
+#home{
+    transform: translateX(30px);
+    float: left;
+    margin: 0 auto;
+    max-width: 25%;
+    height: 50px;
+    position: relative;
+}
+
+img.card{
+    margin-top: 5%;
+    margin-left: 5%;
+    position: relative;
+}
+
+div.tipo{
+    transform: translateY(-20px);
+    margin: 0 auto;
+    max-width: 70%;
+    position: relative;
+}
+
+div.count{
+    float: right;
+    transform: translateX(150px);
+}
+
+div.dados{
+    display: inline;
+    float: right;
+}
+
+div.faces{
+    transition: all 1s;
+    backface-visibility: hidden;
+    position: relative;
+    float: left;
+}
+
+div.frente{
+    transform: rotateY(-180deg);
+}
+div.verso.aberta{
+    transform: rotateY(180deg);
+}
+
+div.frente.aberta{
+    transform: rotateY(0deg);
+}
+
+div.carta:hover{
+    box-shadow: 5px 5px 10px #2c7daa;
+}

@@ -1,0 +1,123 @@
+/* ARQUIVO COM ESTILOS ADOTADOS NO PROJETO*/
+div.main{
+    /*background: #0e212a;*/
+    background: url("../img/bgGame2.jpg");
+        text-align: center;
+        alignment: center;
+        border-top: 15px solid black;
+        border-left: 15px solid black;
+        border-right: 15px solid black;
+        border-bottom: 15px solid black;
+        border-radius: 2%;
+        box-shadow: black;
+        top: 30px;
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        min-width:1300px;
+        max-height: 100%;
+        min-height: 820px;
+        position: absolute;
+        transform: translateX(20%);
+}
+
+div.centro{
+    transform: translateY(75px);
+    position: relative;
+}
+#logo{/*logo do jogo*/
+    top: 50px;
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    transition: all 0.1s;
+    position: relative;
+    transition: all 0.3s;
+}
+
+#logo:hover{
+    margin-left: 40px;
+    margin-right: 40px;
+    filter: drop-shadow(5px 5px 5px #19dd71);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+#inicio{
+    background: url("../img/fundo.gif");
+    /*background: #0e212a;*/
+    filter: drop-shadow(5px 5px 5px #000000);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#inicio2{
+    /*background: url("../img/fundo.gif");*/
+    background: #0e212a;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.btn{/* ESPAÇAMENTO ENTRE OS ICONES*/
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    transition: all 0.1s;
+}
+
+.btn:hover { /*EFEITO DE ZOOM AO PASSAR MOUSE*/
+    margin-left: 40px;
+    margin-right: 40px;
+    filter: drop-shadow(10px 10px 10px #19dd71);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: all 0.2s;
+}
+ /*****************************************************************/
+/*elementos do menu de modo de jogo*/
+div.label{
+
+    border-radius: 10%;
+    margin: 0 auto;
+    background: #0e212a;
+    max-width:350px;
+    min-height: 75px;
+    max-height: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    transition: all 0.1s;
+}
+
+div.label:hover{
+    background: url("../img/fundo.gif");
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15%;
+    filter: drop-shadow(2px 2px 2px rgba(27, 226, 109, 0.51));
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
