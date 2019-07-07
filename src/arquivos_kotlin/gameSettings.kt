@@ -81,6 +81,7 @@ fun adicionarImagemEvento(cartas:List<Card>, frente:HTMLCollection, contador:Int
     }
 }
 
+
 /*********MÉTODOS RESPONSÁVEIS PELA LÓGICA DO JOGO****************/
 
 fun viraCarta(cartas:HTMLDivElement){
