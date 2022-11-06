@@ -1,5 +1,7 @@
 # memory-game
 
+Demo: [click here](https://memorygameio.netlify.app)
+
 # Memory Game made on with Kotlin compiled on JS for control HTML webpage.
 
 - Developers: Matheus Phelipe and Nilton Vieira.
